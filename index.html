@@ -384,6 +384,7 @@
   <script>
     $(document).ready(function() {
       $("#carousel-button").click(function() {
+        $("#mycarousel").carousel( {interval: 2000} );
         if ($("#carousel-button").children("span").hasClass('fa-pause')) {
           $("#mycarousel").carousel('pause');
           $("#carousel-button").children("span").removeClass('fa-pause');
