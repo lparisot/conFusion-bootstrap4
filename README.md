@@ -10,3 +10,17 @@ npm -g install copyfiles
 npm install -g grunt-cli
 npm install -g gulp-cli
 ```
+
+# Execution
+
+```bash
+npm start
+```
+or
+```bash
+grunt build
+```
+or
+```bash
+gulp build
+```
